@@ -21,16 +21,16 @@ go run main.go
 ```
 
 ```
-2019/10/16 10:35:19 starting wg#main
-2019/10/16 10:35:19 starting wg#1
-2019/10/16 10:35:19 starting wg#2
-2019/10/16 10:35:20 finished wg#1
-2019/10/16 10:35:21 finished wg#2
-2019/10/16 10:35:21 finished wg#main
-2019/10/16 10:35:21 starting eg#main
-2019/10/16 10:35:21 starting eg#1
-2019/10/16 10:35:21 starting eg#2
-2019/10/16 10:35:22 finished eg#1
-2019/10/16 10:35:23 finished eg#2
-2019/10/16 10:35:23 finished eg#main
+2019/10/16 10:53:13 starting wg#main
+2019/10/16 10:53:13 starting wg#1
+2019/10/16 10:53:14 starting wg#2
+2019/10/16 10:53:15 finished wg#1
+2019/10/16 10:53:17 finished wg#2
+2019/10/16 10:53:17 finished wg#main
+2019/10/16 10:53:17 starting eg#main
+2019/10/16 10:53:17 starting eg#1
+2019/10/16 10:53:18 starting eg#2
+2019/10/16 10:53:19 finished eg#1
+2019/10/16 10:53:21 finished eg#2
+2019/10/16 10:53:21 finished eg#main
 ```

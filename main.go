@@ -7,7 +7,7 @@ import (
 	"time"
 )
 
-func main()  {
+func main() {
 	wg()
 	eg()
 }
@@ -18,10 +18,11 @@ func wg() {
 	go func() {
 		defer wg.Done()
 		log.Printf("starting wg#1")
+		time.Sleep(1 * time.Second)
 		go func() {
 			defer wg.Done()
 			log.Printf("starting wg#2")
-			time.Sleep(2 * time.Second)
+			time.Sleep(3 * time.Second)
 			log.Printf("finished wg#2")
 		}()
 		wg.Add(1)
@@ -38,9 +39,10 @@ func eg() {
 	var eg errgroup.Group
 	eg.Go(func() error {
 		log.Printf("starting eg#1")
+		time.Sleep(1 * time.Second)
 		eg.Go(func() error {
 			log.Printf("starting eg#2")
-			time.Sleep(2 * time.Second)
+			time.Sleep(3 * time.Second)
 			log.Printf("finished eg#2")
 			return nil
 		})
